@@ -9,7 +9,7 @@
 
 font-family: 'seadog2015ital';
 
-src: url(.../fuentes/sea_dog2001/seadog2015ital.ttf);
+src: url(fuentes/sea_dog2001/seadog2015ital.ttf);
 
 }
 /*/////MAIN///---------------/*/
@@ -21,7 +21,7 @@ src: url(.../fuentes/sea_dog2001/seadog2015ital.ttf);
 
 
 .Presentacion{
-background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.09) 0%,rgba(0, 0, 0, 0.37) 10%),url(imagenes/pexels-photo-2417730.jpg);
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.09) 0%,rgba(0, 0, 0, 0.37) 10%),url(/imagenes/pexels-photo-2417730.jpg);
 background-position: center center;
 background-repeat: no-repeat;
 background-attachment: fixed;
