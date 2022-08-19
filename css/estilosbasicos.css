@@ -1,0 +1,381 @@
+
+* {
+  margin:  0;
+  padding: 0;
+}
+
+/*navbar*/
+@font-face {
+
+font-family: 'seadog2015ital';
+
+src: url(/fuentes/sea_dog2001/seadog2015ital.ttf);
+
+}
+ .tkt{
+
+  	font-family: 'seadog2015ital', sans-serif ;
+}
+#main-container:hover{
+
+}
+.show{
+  display: flex!important;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 ;
+  font-size: 24px;
+  background-color: black;
+
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li > a{
+  display: block;
+  position: relative;
+  padding: 20px 15px 10px 15px;
+  text-decoration: none;
+  color: white;
+
+}
+nav ul li .link::before{
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  transform: scalex(0);
+  transition: transform 0.3s ease;
+  background-color: white;
+  color:white;
+}
+nav ul li .link:hover::before{
+  content: '';
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  transform: scalex(1);
+  transition: transform 0.3s ease;
+  background-color: white;
+  color: white;
+
+}
+nav .more{
+  display: none;
+}
+
+nav .menu{
+  position:absolute;
+  display: none;
+  flex-direction: column;
+  min-width: 200px;
+  background-color: white;
+  margin-top: 48px;
+}
+nav .menu a{
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+nav .menu a:hover{
+  color: white;
+  background-color: black;
+
+}
+nav .mobile{
+  display:none;
+  width: 100%;
+}
+nav .mobile .header{
+  display: flex;
+   text-align: center;
+   justify-content: space-between;
+   flex-direction: row;
+
+   background-color: black;
+}
+nav .mobile .header a{
+  color: white;
+  display: inline-flex;
+  text-decoration: none;
+  padding: 10px;
+}
+nav .mobile .header #bmenu{
+  border: none;
+  background-color: transparent;
+  color:white;
+  cursor: pointer;
+}
+nav .mobile .links{
+  display: none;
+  flex-direction:column;
+  position: relative;
+  z-index: 200;
+  background-color: black;
+
+}
+nav .mobile .links a{
+  font-size: 20px;
+display: block;
+padding: 10px 20px;
+text-decoration: none;
+color: white;
+}
+nav .mobile .links a:hover{
+  font-size: 20px;
+display: block;
+padding: 10px 20px;
+text-decoration: none;
+color: black;
+background-color: white;
+}
+
+/*///carrito del menu///---///*/
+#carritoHTML{
+  background-color: black
+}
+.botones-carrito{
+}
+/*botones carrito y user*/
+.right-align{
+  display: flex;
+  align-items: flex-end;
+  gap:10px;
+  padding-right: 5px;
+
+}
+.btn-secondary{
+position:relative;
+  border-color: black;
+  border-radius: 200px;
+  background-color: black;
+  gap:10px;
+}
+.carritoMenu{
+  width: 30px;
+  /* height: 400px;
+   gap:20px; */
+  padding: 5px 10px 5px 10px;
+  /* display:flex;*/
+  flex-direction:column;
+}
+.contenedorLogIn{
+  flex-wrap: wrap;
+
+}
+
+@media screen and (max-width: 1000px) {
+nav .link-hide{
+  display: none;
+}
+nav .more{
+  display: flex;
+}
+}
+@media screen and (max-width: 560px) {
+nav {
+  width: 100%;
+  padding: 0;
+}
+  nav ul{
+    display: none;
+  }
+  nav .mobile{
+    display: block;
+  }
+
+}
+
+
+
+
+
+/*///carrito del menu///---///*/
+#carritoHTML{
+  background-color: black
+}
+.botones-carrito{
+  border: 10px
+}
+
+
+/*footer---------------*/
+
+footer{
+  background: black;
+  position:inherit;
+     left:0px;
+     bottom:0px;
+     height:auto;
+     width:100%;
+     padding:2% 0% 0% 0%;
+
+}
+textarea {
+
+    resize: none;
+}
+
+.text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+@charset "UTF-8";
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5000rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram, .fa-google-plus-g {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+.rounded-social-buttons .social-button .fa-google-plus-g{
+  background: rgb(193, 18, 18);
+
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+
+/* ////////////////////////////////FORMULARIO REGISTO */
+.background{
+  background-image: url(/imagenes/pexels-photo-2417730.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: scroll;
+
+}
+input{
+  border-radius: 10px;
+  border-style: none;
+  border-width:thick;
+}
+.formReg {
+	/* background-color: rgba(251, 250, 250, 0.33); */
+  background: rgba( 202, 35, 35, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10.5px );
+-webkit-backdrop-filter: blur( 15.5px );
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 10% 10% ;
+  margin: auto;
+	height: 100%;
+
+  gap: 10px;
+	text-align: center;
+  border-radius:52% 48% 47% 53% / 23% 61% 39% 77%   ;
+  font-family: 'seadog2015ital';
+  font-size-adjust: 50%;
+  background: -moz-linear-gradient(-45deg, rgba(128,39,196,0.34) 0%, rgba(237,94,225,0.34) 39%, rgba(86,149,201,0.34) 59%, rgba(125,185,232,0.34) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(128,39,196,0.34) 0%,rgba(237,94,225,0.34) 39%,rgba(86,149,201,0.34) 59%,rgba(125,185,232,0.34) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(128,39,196,0.34) 0%,rgba(237,94,225,0.34) 39%,rgba(86,149,201,0.34) 59%,rgba(125,185,232,0.34) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#578027c4', endColorstr='#577db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+::placeholder{
+  color: gray;
+  font-size: 15px;
+  font-style: normal;
+  font-family:serif;
+  padding-left:5px;
+}

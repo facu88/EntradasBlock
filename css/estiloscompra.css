@@ -1,0 +1,45 @@
+/*/////////////body///////*/
+
+body{
+  background-color: #D1560F;
+
+}
+/*7777777main777777777*/
+main{
+  background-color: #787878;
+  margin: 30px;
+  border-radius: 20px
+
+}
+
+.container{
+  position: relative;
+}
+#template-card{
+  margin-top: 30px;
+}
+.templateCard{
+display: flex;
+justify-content: center;
+}
+.card{
+  padding: auto;
+  margin: auto;
+  border-style: none
+}
+/*CARRITO DEL FINAL*/
+.table{
+  width: 50%;
+  height: auto;
+  display:inline-table;
+  margin: 10px;
+  text-align: center;
+  margin-left: 25%;
+  border-collapse: collapse;
+  border-color: transparent;
+
+
+  background-color:#45453F;
+  color: #0A0A01;
+  border-radius: 10px;
+}
