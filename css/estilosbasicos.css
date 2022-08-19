@@ -9,7 +9,7 @@
 
 font-family: 'seadog2015ital';
 
-src: url(fuentes/sea_dog2001/seadog2015ital.ttf);
+src: url(.../fuentes/sea_dog2001/seadog2015ital.ttf);
 
 }
  .tkt{
@@ -336,7 +336,7 @@ textarea {
 
 /* ////////////////////////////////FORMULARIO REGISTO */
 .background{
-  background-image: url(/imagenes/pexels-photo-2417730.jpg);
+  background-image: url(.../imagenes/pexels-photo-2417730.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
