@@ -15,21 +15,21 @@
    justify-content: flex-end;
   align-items: flex-end;
   flex-shrink: 0;
-  background-image: url(/imagenes/imagen1.jpg);
+  background-image: url(../imagenes/imagen1.jpg);
   background-position:top;
   background-repeat:no-repeat;
   background-attachment:scroll;
   background-size:cover;
 }
 .contenidoSlider:nth-child(2){
-  background-image: url(/imagenes/imagen2.jpg);
+  background-image: url(../imagenes/imagen2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment:scroll;
   background-size:cover;
 }
 .contenidoSlider:nth-child(3){
-  background-image: url(/imagenes/imagen3.jpg);
+  background-image: url(../imagenes/imagen3.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
